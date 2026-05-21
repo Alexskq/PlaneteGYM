@@ -32,14 +32,14 @@ window.PLANETEGYM_DEFAULT = {
     ],
   },
   galerie: [
-    { src: "https://primary.jwwb.nl/public/r/g/f/temp-yjgyjrkrpmwwsyolujhd/xflfxv/2cb6cc92-2443-4474-bf00-b42b3172db09jpg.jpg", alt: "Zone Cross Training", span: "span2x2" },
-    { src: "https://primary.jwwb.nl/public/r/g/f/temp-yjgyjrkrpmwwsyolujhd/14d56b/744e9b7b-5fe1-49ef-a9ae-c672d7f947b0jpg.jpg", alt: "Salle musculation", span: "" },
-    { src: "https://primary.jwwb.nl/public/r/g/f/temp-yjgyjrkrpmwwsyolujhd/cl4sl3/5fc2ccd4-e0a5-4e37-976d-1f1549af34ec.jpg", alt: "Sac de boxe", span: "" },
-    { src: "https://primary.jwwb.nl/public/r/g/f/temp-yjgyjrkrpmwwsyolujhd/9r0yae/3795c5da-5da1-47de-b095-05bcc56d98f6.jpg", alt: "Machine musculation", span: "" },
-    { src: "https://primary.jwwb.nl/public/r/g/f/temp-yjgyjrkrpmwwsyolujhd/mmrray/314438e1-5e18-4100-b13f-9b3236df6470jpg.jpg", alt: "Haltères", span: "" },
-    { src: "https://primary.jwwb.nl/public/r/g/f/temp-yjgyjrkrpmwwsyolujhd/6z3y7c/b133dece-dca5-412f-ad43-da9a1ee39779jpg.jpg", alt: "Machine rouge", span: "span2" },
-    { src: "https://primary.jwwb.nl/public/r/g/f/temp-yjgyjrkrpmwwsyolujhd/tudpvl/a6bc19e0-0a48-47af-8d42-b4853192644cjpg.jpg", alt: "Machines", span: "" },
-    { src: "https://primary.jwwb.nl/public/r/g/f/temp-yjgyjrkrpmwwsyolujhd/ox5qy2/6ed16f47-0972-42f9-b006-a49a9ebd9957jpg.jpg", alt: "Poulies", span: "" },
+    { src: "photos/cross-training-gorille.jpg", alt: "Zone Cross Training", span: "span2x2" },
+    { src: "photos/salle-musculation.jpg",      alt: "Salle musculation",  span: "" },
+    { src: "photos/cross-training.jpg",         alt: "Sac de boxe",        span: "" },
+    { src: "photos/machine-guidee.jpg",         alt: "Machine musculation", span: "" },
+    { src: "photos/halteres.jpg",               alt: "Haltères",           span: "" },
+    { src: "photos/machine-rouge.jpg",          alt: "Machine rouge",      span: "span2" },
+    { src: "photos/machine-2.jpg",              alt: "Machines",           span: "" },
+    { src: "photos/machine-inclinee.jpg",       alt: "Poulies",            span: "" },
   ],
   abonnements: [
     {
