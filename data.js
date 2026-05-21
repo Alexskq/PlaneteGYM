@@ -32,14 +32,14 @@ window.PLANETEGYM_DEFAULT = {
     ],
   },
   galerie: [
-    { src: "photos/cross-training-gorille.jpg", alt: "Zone Cross Training", span: "span2x2" },
-    { src: "photos/salle-musculation.jpg",      alt: "Salle musculation",  span: "" },
-    { src: "photos/cross-training.jpg",         alt: "Sac de boxe",        span: "" },
-    { src: "photos/machine-guidee.jpg",         alt: "Machine musculation", span: "" },
-    { src: "photos/halteres.jpg",               alt: "Haltères",           span: "" },
-    { src: "photos/machine-rouge.jpg",          alt: "Machine rouge",      span: "span2" },
-    { src: "photos/machine-2.jpg",              alt: "Machines",           span: "" },
-    { src: "photos/machine-inclinee.jpg",       alt: "Poulies",            span: "" },
+    { src: "/photos/cross-training-gorille.jpg", alt: "Zone Cross Training", span: "span2x2" },
+    { src: "/photos/salle-musculation.jpg",      alt: "Salle musculation",  span: "" },
+    { src: "/photos/cross-training.jpg",         alt: "Sac de boxe",        span: "" },
+    { src: "/photos/machine-guidee.jpg",         alt: "Machine musculation", span: "" },
+    { src: "/photos/halteres.jpg",               alt: "Haltères",           span: "" },
+    { src: "/photos/machine-rouge.jpg",          alt: "Machine rouge",      span: "span2" },
+    { src: "/photos/machine-2.jpg",              alt: "Machines",           span: "" },
+    { src: "/photos/machine-inclinee.jpg",       alt: "Poulies",            span: "" },
   ],
   abonnements: [
     {
