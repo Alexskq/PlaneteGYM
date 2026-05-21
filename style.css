@@ -187,7 +187,7 @@ nav.scrolled {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('/photos/cross-training-gorille.jpg');
+  background-image: url('photos/cross-training-gorille.jpg');
   background-size: cover;
   background-position: center 30%;
   filter: brightness(0.35);

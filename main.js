@@ -89,6 +89,17 @@ function renderHoraires(data) {
   }
 }
 
+// ── FADE-UP ON SCROLL ────────────────────────────────────────────────────────
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => entry.target.classList.add('visible'), i * 90);
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1 });
+
 // ── INIT ─────────────────────────────────────────────────────────────────────
 
 const siteData = loadData();
@@ -96,6 +107,8 @@ renderPlanning(siteData);
 renderGalerie(siteData);
 renderAbonnements(siteData);
 renderHoraires(siteData);
+
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
 // ── NAVBAR SCROLL ─────────────────────────────────────────────────────────────
 
@@ -164,15 +177,3 @@ window.addEventListener('scroll', () => {
   mobileCta.classList.toggle('visible', heroEl.getBoundingClientRect().bottom < 0);
 }, { passive: true });
 
-// ── FADE-UP ON SCROLL ────────────────────────────────────────────────────────
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry, i) => {
-    if (entry.isIntersecting) {
-      setTimeout(() => entry.target.classList.add('visible'), i * 90);
-      observer.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.1 });
-
-document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
